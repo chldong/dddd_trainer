@@ -1,21 +1,4 @@
-# dddd_trainer 带带弟弟OCR训练工具
-
-### 带带弟弟OCR所用的训练工具今天正式开源啦！ [ddddocr](https://github.com/sml2h3/ddddocr)
-
-### 项目仅支持N卡训练，A卡或其他卡就先别看啦
-
-### 项目基于Pytorch进行开发，支持cnn与crnn进行训练、断点恢复、自动导出onnx模型，并同时支持无缝使用[ddddocr](https://github.com/sml2h3/ddddocr) 与 [ocr_api_server](https://gitee.com/fkgeek/ocr_api_server) 的无缝部署
-
-### 训练环境支持
-
-Windows/Linux
-
-Macos仅支持cpu训练
-
-## 1、深度学习必备环境配置（非仅本项目要求，而是所有深度学习项目要求，cpu训练除外）
-
-### 开始本教程前请先前往[pytorch](https://pytorch.org/get-started/locally/) 官网查看自己系统与硬件支持的pytorch版本，注意30系列之前的N卡，如2080Ti等请选择cuda11以下的版本（例：CUDA 10.2），如果为30系N卡，仅支持CUDA 11版本，请选择CUDA 11以上版本（例：CUDA 11.3），然后根据选择的条件显示的pytorch安装命令完成pytorch安装，由于pytorch的版本更新速度导致很多pypi源仅缓存了cpu版本，CUDA版本需要自己在官网安装。
-
+##1、预装环境
 ### 安装CUDA和CUDNN
 
 根据自己显卡型号与系统选择
@@ -163,4 +146,4 @@ Train:
 
 - ### 8、部署
 
-`你们先训练着，我去适配ddddocr和ocr_api_server了，适配完我再继续更新文档`
+
